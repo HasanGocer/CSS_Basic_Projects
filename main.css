@@ -1,0 +1,68 @@
+@import "FirstProjectCSS.css";
+/*@import url(FirstProjectCSS.css);*/
+
+
+*
+{
+    color: red;
+}
+.HG
+{
+    color: purple;
+}
+div *
+{
+
+}
+
+div , h3,#HG,.HG
+{
+
+}
+div b
+{
+/*div içindeki b'yi seçiyor*/
+}
+p>b
+{
+/*sadece p'nin b olan çocuklarını kapsıyor */
+}
+
+h3+p
+{
+/*h3 ve altında p varsa devreye girer sadece p kullanır */
+}
+h3 ~ p
+{
+    /*h3'ten sonra gelen paragraf etiketlerini tamamını kapsar*/
+}
+
+abbr[title]
+{
+    /*abbr'de niteliği tittle olanları seçer*/
+}
+
+img[width="200"]
+{
+    /* resimlerde width değeri 200 olanı seçer*/
+}
+img[alt~="HG"]
+{
+    /*alt değerinde HG kelimesi geçen hepsini seçer*/
+}
+img[alt|="HG"]
+{
+    /*alt değerinde HG kelimesi ile başlayan hepsini seçer*/
+}
+img[alt^="HG"]
+{
+    /*alt değerinde HG ile başlayan hepsini seçer*/
+}
+img[alt$="HG"]
+{
+    /*alt değerinde HG ile biten hepsini seçer*/
+}
+img[alt*="HG"]
+{
+    /*alt değerinde HG geçen hepsini seçer*/
+}
