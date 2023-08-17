@@ -1,0 +1,29 @@
+div::after
+{
+    content: attr(data-Sonrasi);
+}
+
+div::before
+{
+    content: 'HG is will be here ';
+}
+div::first-letter
+{
+    /*yazının ilk harfini gösterir*/
+    color: rgb(58, 14, 255);
+    font-size: 60px;
+}
+div::first-line
+{
+    /*yazının ilk satırını gösterir*/
+    font-size: 40px;
+}
+::selection
+{
+    /*seçilen yerin ne olacağını gösteriyor*/
+    color: blueviolet;
+}
+input::placeholder
+{
+/*alınan input değişkenin içindeki yazının değiştirilmesi için var*/
+}

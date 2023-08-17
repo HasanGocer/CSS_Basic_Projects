@@ -1,0 +1,127 @@
+li:first-child
+{
+    /*bir değerin çocuğu olan ilk tüm  li değerilerini alır */
+}
+li:last-child
+{
+    /*bir değerin çocuğu olan son tüm  li değerilerini alır */
+}
+li:first-of-type
+{
+    /*li grubun ilk çocuğu olan tüm  li değerilerini alır */
+}
+li:last-of-type
+{
+    /*li grubun son çocuğu olan tüm  li değerilerini alır */
+}
+li:nth-child(2)
+{
+    /*bir değerin çocuğu olan n'inci tüm  li değerilerini alır */
+}
+li:nth-of-type(2)
+{
+    /*li grubun n'inci çocuğu olan tüm  li değerilerini alır */
+}
+li:nth-last-child()
+{
+    /*bir değerin çocuğu olan sondan n'inci tüm  li değerilerini alır */
+}
+li:nth-last-of-type()
+{
+    /*li grubun sondan n'inci çocuğu olan tüm  li değerilerini alır */
+}
+li:hover
+{
+    /*üzerine fare geldiğinde çalışır*/
+}
+input[type="radio"]:checked+li
+{
+/*inputtan gelen tikleme olayı gerçekleşince sonrasındaki liye işlem yaptırır*/
+}
+button:focus
+{
+    /*veri alınan şeylerin üstüne gelince olacaklar tab ile ilerler  ve tabindex ile sıra verir*/
+}
+button:focus-within
+{
+    /*focuslanılan işlemin parentine gider ve işlem yaptırır*/
+}
+
+li:only-child
+{
+/*tek child a sahip tüm yapılarda işlemi uygular*/
+}
+li:only-of-type
+{
+    /*tek tipe sahip olan tüm yapılarda işlemi uygular*/
+}
+li:not(.HG)
+{
+    /*HG sınıfından olmayanları seçer */
+}
+li:empty
+{
+    /*içi boş olan etiketleri seçer ve işlemi uygular*/
+}
+input:valid
+{
+    /*required değeri geçerli ise işlem uygulanır*/
+}
+input:invalid
+{
+    /*required değeri geçersiz ise işlem uygulanır*/
+}
+input:enabled
+{
+    /*elemanın açık olduğunda işlem uygulanır*/
+}
+input:disabled
+{
+    /*elemanın kapalı olduğunda işlem uygulanır*/
+}
+input:required
+{
+    /*elemanın içinin doldurulması zorunluysa işlem uygulanır*/
+}
+input:optional
+{
+    /*elemanın içinin doldurulması zorunlu değilse işlem uygulanır*/
+}
+input:read-only
+{
+    /*sadece okunabilen elemanlara işlem uygular*/
+}
+input:read-write
+{
+    /*yazı yazılabilen elemanlara işlem uygular*/
+}
+link:active
+{
+    /*o an tıklanmış ve aktfi olan linkleri gösteriyor */
+}
+link:link
+{
+    /*ziyaret edilmemiş linkleri gösteriyor */
+}link:visited
+{
+    /*ziyaret edilmiş linkleri gösteriyor */
+}link:any-link
+{
+    /*geçerli ağ etiketleri olanları linkleri gösteriyor */
+}
+p:target
+{
+    /*nav ile gittiğim paragrafta işlem yapıyor*/
+}
+input:in-range
+{
+    /*verilen değerler sınırı aşmamışsa*/
+}
+input:out-of-range
+{
+    /*verilen değerler sınırı aşmışsa*/
+}
+:root
+{
+    /*en arka yani en kök olan işlemdir*/
+}

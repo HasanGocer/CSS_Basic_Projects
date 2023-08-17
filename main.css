@@ -1,5 +1,6 @@
 @import "FirstProjectCSS.css";
 /*@import url(FirstProjectCSS.css);*/
+@import url(CSSSeciciler.css);
 
 
 *
@@ -8,11 +9,14 @@
 }
 .HG
 {
-    color: purple;
+    color: rgb(255, 251, 0);
 }
 div *
 {
-
+    /*alttaki gizleme kodu*/
+    display: none;
+     /*focusta arkadaki maviliği gizleme kodu*/
+     outline: none;
 }
 
 div , h3,#HG,.HG
@@ -65,4 +69,8 @@ img[alt$="HG"]
 img[alt*="HG"]
 {
     /*alt değerinde HG geçen hepsini seçer*/
+}
+img[alt="Hg" i]
+{
+    /*i ekelntisi değerimizin büyük harf küçük har duyarını kapatır*/
 }
